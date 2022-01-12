@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(45, 45, 45, 1);
+}
+
+.container {
+  max-width: 870px;
+  height: 748px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.left {
+  width: 361px;
+  background: rgba(49, 49, 49, 1);
+}
+
+.left__background {
+  position: absolute;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  z-index: 2;
+  margin: 222px 40px 428px 40px;
+}
+
+.left span {
+  position: absolute;
+  z-index: 2;
+  margin: 682px 21px 36px 28px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+.right {
+  width: 509px;
+  background: white;
+}
+
+.right__title h1 {
+  padding-top: 54px;
+  margin-left: 6px;
+  margin-bottom: 23px;
+  font-family: Impact;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.right__title h3 {
+  color: rgba(49, 49, 49, 1);
+}
+
+.right__title p {
+  color: rgba(236, 127, 0, 1);
+}
+
+.right__info div {
+  margin: 69px 52px 32px 71px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.right__info p {
+  margin: 0 264px 280px 68px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.right__info p span {
+  color: rgba(236, 127, 0, 1);
+}
+
+.right__icon {
+  width: 123px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+  margin-left: 182px;
+}
+
+.right__icon span {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  margin-left: 15px;
+  color: #2d2d2d;
+}
+
+.right__contact {
+  margin: 15px 46px 34px 14px;
+
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2d2d2d;
+}
